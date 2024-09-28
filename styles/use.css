@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 0;
-  display: flex;
+  /* display: flex; */
 }
 
 .header-grid {
