@@ -1,0 +1,29 @@
+SYNTHETIC INDICES
+Lot Sizes
+
+Assest		Min. Vol	Max. Vol.
+V10		0.30		100
+V25		0.50		100
+V50		3.00		1000
+V75		0.001		1.00
+V100		0.20		50
+
+Step Index	0.10		20
+
+V10(Is)		0.50		100
+V25(Is)		0.005		1.00
+V50(Is)		0.005		1.00
+V75(Is)		0.005		5.00
+V100(Is)	0.10		10
+V200(Is)	0.01		5
+V300(Is)	0.6		30
+
+Boom 300	0.10		20
+Boom 500	0.20		50
+Boom 1000	0.20		50
+
+Crash 300	0.05		10
+Crash 500	0.20		50
+Crash 1000	0.20		50
+
+		  
