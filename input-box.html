@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+  <div style="
+  margin-top: 50px;" class="js-link-title"  id="texLink">
+    <input type="text" placeholder="link-title">    
+    <button>Send</button>
+  </div><br>
+  <div style="text-align: justify;">
+  <textarea  placeholder="Message"></textarea>
+  <button>Submit</button>
+  </div>
+
+
+
+
+
+
+
+<!-- 1.
+ Here's an example:
+1.Copy codelet text = "Text to be converted to a link.";
+2.let element = document. getElementById("my-element");
+3.element. innerHTML = `<a href="${url}">${text}</a>`; -->
+
+<!-- 2.
+
+<script>
+  <input type="text" id="myAwesomeIdName"></input>
+      var val = document.getElementById('myAwesomeIdName').value;
+      <a href="&val;&" target="_blank">Link</a>
+      </script> -->
+
+      <!-- document.getElementById("myTxtbox").innerText
+
+
+$("myTxtBox").text() -->
+
+
+<!-- 3.
+  You can add event listener on input field of your choice e.g. enter or just on change. Get the value and add it to DOM or what ever you want to do with it. If you have something else leme know I will update answer.
+
+const input = document.querySelector('input');
+const log = document.getElementById('log');
+
+input.addEventListener('change', updateValue);
+
+function updateValue(e) {
+  const yourLink = e.target.value
+  const mydiv = document.getElementById("log");
+  const aTag = document.createElement('a');
+  aTag.setAttribute('href', yourLink);
+  aTag.textContent = "link text";
+  mydiv.appendChild(aTag)
+
+}
+<input placeholder="Enter some text" name="name" />
+<div id="log"></div> -->
+
+<Script src="scripts/input-box.js"></Script>
+
+</body>
+</html>
