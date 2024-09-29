@@ -47,8 +47,8 @@ img {
 
 .main-grid {
   display: grid;
-  grid-template-columns: 250px 800px 1fr ;
-  height: 600px;
+  grid-template-columns: 250px 600px 1fr ;
+  height: 500px;
   border-bottom: #e8491d solid 5px; 
 }
 .links {
