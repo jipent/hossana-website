@@ -49,14 +49,21 @@ img {
   display: grid;
   grid-template-columns: 250px 600px 1fr ;
   height: 500px;
-  border-bottom: #e8491d solid 5px; 
+  border-bottom: #e04c23 solid 5px; 
 }
 .links {
   background-color: lightpink; 
     /* margin-left: 10px; 
     margin-top: 20px;   */
     
-    text-align: center;     
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    /* justify-content: -1px; */
+   
+    /* column-gap: 5px; */
+    /* row-gap: -20px; */
+    
 }
 .messages {
   margin-top: 0;
@@ -64,6 +71,8 @@ img {
 .main-parent {
   background-color: aqua;
   text-align: justify;  
+  width: 600px;
+  height: 500px;
 }
 .sideInfo {
   background-color: yellowgreen;
@@ -88,6 +97,6 @@ img {
   text-align: center;
 }
 .designer {
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 10px;
 }
