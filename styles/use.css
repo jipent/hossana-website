@@ -2,6 +2,7 @@ body {
   font-family: Roboto, Arial, sans-serif;
   
 }
+/*
 @media (max-width: 750px) {
   .video-grid {
     grid-template-columns: 1fr 1fr ;
@@ -18,7 +19,7 @@ body {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
+}*/
 
 
 .header-grid {
